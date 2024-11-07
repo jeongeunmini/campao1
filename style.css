@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+figure {
+    width: fit-content;
+    height: fit-content;
+}
+
+body {
+    font-family: "Noto Sans KR";
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    top: 0px;
+}
+
+header .inner {
+    width: 96%;
+    max-width: 1280px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+header .inner .top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .inner .top .right ul {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+header .inner .logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .inner .logo h1 {
+    margin: 40px auto;
+}
+
+header .inner .logo .icon ul {
+    display: flex;
+    gap: 16px;
+    margin-top: 30px;
+}
+
+header .inner .menu {
+    width: 100%;
+    height: 52px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin: auto;
+}
+
+header .inner .menu ul {
+    height: 54px;
+    display: flex;
+    gap: 96px;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.wrap {
+    margin: auto;
+    position: relative;
+    top: 256px;
+    /*background-color: lightcoral;*/
+}
+
+.wrap main {
+    width: 100%;
+    max-width: 1920px;
+    height: 800px;   
+}
+
+.wrap main figure{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrap main figure img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.wrap .intro {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1170px;
+    margin: 150px auto;
+    color: white;
+
+}
+
+.wrap .intro .left {
+    width: 560px;
+    height: 370px;
+    background-image: url(./img/img_3.JPG);
+    background-size: cover;
+    padding: 32px;
+}
+
+.wrap .intro .right {
+    width: 560px;
+    height: 370px;
+    background-image: url(./img/img_3_2.JPG);
+    background-size: cover;
+    padding: 32px;
+}
+
+.wrap .intro h3 {
+    margin-bottom: 16px;
+}
+
+.wrap .text {
+    max-width: 100%;
+    height: 744px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 200px;
+}
+
+.wrap .text h2 {
+    margin-bottom: 32px;
+}
+
+.wrap .bestitem {
+    text-align: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.wrap .bestitem h3{
+    margin-bottom: 40px;
+}
+
+.wrap .bestitem .b_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.wrap .bestitem figure img{
+    width: 374px;
+    height: 468px;
+}
+
+.wrap .MD {
+    text-align: center;
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.wrap .MD h3 {
+    margin-bottom: 32px;
+}
+
+.wrap .MD .m_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.wrap .MD .m_img img{
+    width: 280px;
+    height: 350px;
+}
+
+.wrap .banner{
+    width: 1170px;
+    height: 958px;
+    background-image: url(./img/img_6.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.wrap .instagram a{
+    width: 374px;
+    height: 129px;
+    margin: 100px auto;
+    background-color: rgb(255, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.wrap .instagram figure img{
+    width: 104px;
+    height: 104px;
+}
+
+.wrap .instagram p {
+    text-align: center;
+}
+
+.wrap .bottom{
+    max-width: 1170px;
+    height: 820px;
+    margin: auto;
+    margin-bottom: 150px;
+    background-image: url(./img/img_2.jpg);
+    background-size: cover;
+}
+
+.wrap .review{
+    text-align: center;
+    max-width: 1523px;
+    margin: 0 auto;
+    margin-bottom: 600px;
+}
+
+.wrap .review h3{
+    margin-bottom: 40px;
+}
+
+.wrap .review .allbox{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.wrap .review .allbox div{
+    width: 347px;
+    height: 528px;
+    border: 1px solid black;
+}
+
+.wrap .review .allbox .a{
+    background-image: url(./img/후기_001.jpg);
+}
+
+.wrap .review .allbox .b{
+    background-image: url(./img/후기_002.jpg);
+}
+
+.wrap .review .allbox .c{
+    background-image: url(./img/후기_003.jpg);
+}
+
+.wrap .review .allbox .d{
+    background-image: url(./img/후기_004.jpg);
+}
+
+
+footer{
+    background-color: #FFF4C9;
+    width: 100%;
+    height: fit-content;
+    margin-top: 100px;
+}
+
+footer .finner{
+    width: 96%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .finner h4{
+    margin-bottom: 24px;
+}
+
+footer .finner p{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:680px) {
+    header .inner .menu ul {
+        height: 54px;
+        display: flex;
+        gap: 10%;
+        align-items: center;
+        color: black;
+        font-weight: bold;
+        justify-content: center;
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width:900px) {
+    header .inner .menu ul {
+        height: 54px;
+        display: flex;
+        gap: 10%;
+        align-items: center;
+        color: black;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    .wrap main figure{
+        display: none;
+    }
+
+    .wrap main{
+        max-width: 900px;
+        height: 800px;
+        background-image: url(./img/2_1.jpg);
+        background-size:contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .wrap .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin: 150px auto;
+        color: white;
+    }
+
+    .wrap .banner{
+        width: 80%;
+        height: 500px;
+        background-image: url(./img/img_6.JPG);
+        background-size:contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+
+    .wrap .bottom{
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        margin-bottom: 150px;
+        background-image: url(./img/img_2.jpg);
+        background-size:contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .wrap .review .allbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-bottom: 200px;
+    }
+
+    footer .finner{
+        flex-direction: column;
+        align-items: baseline;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
